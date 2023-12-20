@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    max-width: 550px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #F55A5A;
+    margin: auto;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.mainbody-container{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.image-card{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.card-content-holder{
+    display: flex;
+    gap:1em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray
+}
+
+.card-content-holder:last-child{
+
+    border-bottom: none
+}
+.location-container{
+    display: flex;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    gap: 0.75em;
+    padding-top: 10px;
+}
+.location-container i{
+    color: red;
+    width: 7px;
+    height: 10px;
+}
+.location-container .location{
+    font-size: 10.24px;
+    letter-spacing: 1.74;
+    padding: 0px;
+}
+
+.location-container .google-map-link{
+    font-size: 10.24px;
+    letter-spacing: 1.74;
+    
+}
+a{
+    color: gray;
+}
+
+.title{
+    font-size: 25px;
+    padding: 0px;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.dates{
+    font-size: 10.24px;
+    font-weight: bold;
+}
+
+.desc{
+    text-align: left;
+    font-size: 10.24px;
+    max-width: 325px;
+}
