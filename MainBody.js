@@ -10,7 +10,8 @@ export default function MainBody(){
             item={item}
         />
     )
-    }) 
+    })
+    console.log(cards) 
     return(
         <div>
             <div className="mainbody-container">

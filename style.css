@@ -29,7 +29,7 @@
     width: 125px;
     height: 168px;
     border-radius: 5px;
-    background-size: cover;
+    object-fit: cover;
 }
 .card-content-holder{
     display: flex;
